@@ -43,7 +43,7 @@ function renderProducts() {
         html += `
             <div class="product-card">
                 <img src="${product.image}" alt="${product.name}" class="product-image"
-                     onerror="this.src='https://via.placeholder.com/300x200?text=No+Image'">
+                     onerror="this.style.display='none'">
                 <div class="product-info">
                     <h3>${product.name}</h3>
                     <div class="price">${config.currency} ${product.price}</div>
