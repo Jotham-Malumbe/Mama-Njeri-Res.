@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Chapati",
       "price": 30,
-      "image": https://res.cloudinary.com/dwaqbsthr/image/upload/v1776691655/hq720_uwfe28.jpg"
+      "image": "https://res.cloudinary.com/dwaqbsthr/image/upload/v1776691655/hq720_uwfe28.jpg"
     },
     {
       "id": 2,
@@ -22,7 +22,7 @@
       "id": 4,
       "name": "Pilau Rice",
       "price": 150,
-      "image": https://res.cloudinary.com/dwaqbsthr/image/upload/v1776691949/Easy-Pilau-Rice-1_zi3lm3.jpg"
+      "image": "https://res.cloudinary.com/dwaqbsthr/image/upload/v1776691949/Easy-Pilau-Rice-1_zi3lm3.jpg"
     },
     {
       "id": 5,
