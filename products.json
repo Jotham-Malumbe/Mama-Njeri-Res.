@@ -4,97 +4,97 @@
       "id": 1,
       "name": "Chapati",
       "price": 30,
-      "image": "chapati.jpg"
+      "image": https://res.cloudinary.com/dwaqbsthr/image/upload/v1776691655/hq720_uwfe28.jpg"
     },
     {
       "id": 2,
       "name": "Beef Stew with Chapati",
       "price": 180,
-      "image": "beef-stew.jpg"
+      "image": "https://res.cloudinary.com/dwaqbsthr/image/upload/v1776691771/photo_2024-09-24-19.21.14_udn2wb.jpg"
     },
     {
       "id": 3,
       "name": "Fried Chicken",
       "price": 220,
-      "image": "fried-chicken.jpg"
+      "image": "https://res.cloudinary.com/dwaqbsthr/image/upload/v1776691856/louisiana-fried-chicken-14_n78yod.jpg"
     },
     {
       "id": 4,
       "name": "Pilau Rice",
       "price": 150,
-      "image": "pilau.jpg"
+      "image": https://res.cloudinary.com/dwaqbsthr/image/upload/v1776691949/Easy-Pilau-Rice-1_zi3lm3.jpg"
     },
     {
       "id": 5,
       "name": "Matoke with Beef",
       "price": 160,
-      "image": "matoke.jpg"
+      "image": "https://res.cloudinary.com/dwaqbsthr/image/upload/v1776692057/sddefault_bnzfuw.jpg"
     },
     {
       "id": 6,
       "name": "Githeri Special",
       "price": 120,
-      "image": "githeri.jpg"
+      "image": "https://res.cloudinary.com/dwaqbsthr/image/upload/v1776692128/spiced-githeri-2-1024x1024_zjhp5e.jpg"
     },
     {
       "id": 7,
       "name": "Ugali with Sukuma Wiki",
       "price": 100,
-      "image": "ugali-sukuma.jpg"
+      "image": "https://res.cloudinary.com/dwaqbsthr/image/upload/v1776692204/250px-Ugali__26_Sukuma_Wiki_dhwsy5.jpg"
     },
     {
       "id": 8,
       "name": "Ugali with Fish",
       "price": 250,
-      "image": "ugali-fish.jpg"
+      "image": "https://res.cloudinary.com/dwaqbsthr/image/upload/v1776692290/7491ab09070510e921c2ef893d624ac9_gjqdfw.jpg"
     },
     {
       "id": 9,
       "name": "French Fries (Chips)",
       "price": 100,
-      "image": "chips.jpg"
+      "image": "https://res.cloudinary.com/dwaqbsthr/image/upload/v1776692359/french-fries_d5irpj.jpg"
     },
     {
       "id": 10,
       "name": "Chips with Chicken",
       "price": 280,
-      "image": "chips-chicken.jpg"
+      "image": "https://res.cloudinary.com/dwaqbsthr/image/upload/v1776692437/rJVxqTHxNZM2C4XYuTY5uA_rq0ycy.jpg"
     },
     {
       "id": 11,
       "name": "Tea (Chai)",
       "price": 40,
-      "image": "tea.jpg"
+      "image": "https://res.cloudinary.com/dwaqbsthr/image/upload/v1776692490/cardamom-tea3_shnui9.jpg"
     },
     {
       "id": 12,
       "name": "Mango Juice",
       "price": 80,
-      "image": "mango-juice.jpg"
+      "image": "https://res.cloudinary.com/dwaqbsthr/image/upload/v1776692648/tropicana-pineapple-mango-320_fynk73.png"
     },
     {
       "id": 13,
       "name": "Fried Eggs (2 pcs)",
       "price": 60,
-      "image": "fried-eggs.jpg"
+      "image": "https://res.cloudinary.com/dwaqbsthr/image/upload/v1776692535/26FD-COOKING101-OLIVEOIL-AB-Fried-Eggs-zcjv-jumbo_oyd7cy.jpg"
     },
     {
       "id": 14,
       "name": "Beans with Chapati",
       "price": 120,
-      "image": "beans-chapati.jpg"
+      "image": "https://res.cloudinary.com/dwaqbsthr/image/upload/v1776692674/hq720_r4hstq.jpg"
     },
     {
       "id": 15,
       "name": "Grilled Tilapia",
       "price": 300,
-      "image": "tilapia.jpg"
+      "image": "https://res.cloudinary.com/dwaqbsthr/image/upload/v1776692802/bca2acd9329ec7bb2050f52a3293d0e5_b5q72h.jpg"
     },
     {
       "id": 16,
       "name": "Samosa (3 pcs)",
       "price": 100,
-      "image": "samosa.jpg"
+      "image": "https://res.cloudinary.com/dwaqbsthr/image/upload/v1776692837/webpicsstamped-6_uzhkeq.jpg"
     }
   ]
 }
