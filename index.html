@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- FIX: better mobile scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Mama Njeri Restaurant - Order delicious meals online and get them delivered or pick up from Kitale Market.">
+    
+    <title>Mama Njeri Restaurant | Order Food Online</title>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            
+            <div class="logo">
+                <h1>Mama Njeri Restaurant</h1>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#menu">Menu</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            
+            <!-- Cart Icon -->
+            <div class="cart-icon" onclick="toggleCart()">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-count" class="cart-count">0</span>
+            </div>
+            
+            <!-- Hamburger -->
+            <button class="hamburger" onclick="toggleMobileMenu()" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="#menu" onclick="toggleMobileMenu()">Menu</a>
+            <a href="about.html" onclick="toggleMobileMenu()">About Us</a>
+            <a href="contact.html" onclick="toggleMobileMenu()">Contact</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Mama Njeri Restaurant</h2>
+            <p>
+                Fresh, delicious meals prepared with love in Kitale Market.
+                Order online and enjoy fast pickup or delivery.
+            </p>
+            <a href="#menu" class="btn-primary">View Our Menu</a>
+        </div>
+    </header>
+
+    <!-- MENU -->
+    <main>
+        <section id="menu" class="menu-section">
+            <div class="section-header">
+                <h2>Our Menu</h2>
+                <p>Tap on any item to add to cart</p>
+            </div>
+            
+            <div id="products-container" class="products-grid">
+                <!-- JS injects products -->
+            </div>
+        </section>
+    </main>
+
+    <!-- CART SIDEBAR -->
+    <aside id="cart-sidebar" class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Order</h3>
+            <button onclick="toggleCart()" class="close-btn" aria-label="Close cart">✕</button>
+        </div>
+        
+        <div id="cart-items" class="cart-items"></div>
+        
+        <div class="cart-total">
+            
+            <div class="delivery-option">
+                <label>
+                    <input type="radio" name="delivery" value="pickup" checked onchange="updateDelivery()">
+                    Pickup (Free)
+                </label>
+                <label>
+                    <input type="radio" name="delivery" value="delivery" onchange="updateDelivery()">
+                    Delivery
+                </label>
+            </div>
+            
+            <div id="delivery-fee-row" class="delivery-fee hidden">
+                <label>Delivery Fee (KSh):</label>
+                <input type="number" id="delivery-fee" value="100" oninput="updateDelivery()">
+            </div>
+            
+            <div class="total-row">
+                <span>Subtotal:</span>
+                <span id="subtotal">KSh 0</span>
+            </div>
+            
+            <div class="total-row">
+                <span>Delivery Fee:</span>
+                <span id="delivery-fee-display">KSh 0</span>
+            </div>
+            
+            <div class="grand-total">
+                <span>Total:</span>
+                <span id="grand-total">KSh 0</span>
+            </div>
+        </div>
+        
+        <button onclick="sendOrderToWhatsApp()" class="btn-whatsapp">
+            <i class="fab fa-whatsapp"></i>
+            Send Order to WhatsApp
+        </button>
+    </aside>
+
+    <!-- FLOATING CART -->
+    <button onclick="toggleCart()" class="floating-cart-btn" aria-label="Open cart">
+        <i class="fas fa-shopping-cart"></i>
+        <span id="floating-cart-count">0</span>
+    </button>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            
+            <div class="shop-info">
+                <h3>Mama Njeri Restaurant</h3>
+                <p>Kitale Market • Fresh &amp; Tasty Meals</p>
+            </div>
+            
+            <div class="made-by">
+                <p>Website by <strong>ChartCart Studio</strong></p>
+                <a href="https://wa.me/254115652612?text=Hi%20ChartCart%20Studio%2C%20I%20want%20my%20own%20online%20shop%20like%20this!" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="start-own">
+                    Start your own online shop today →
+                </a>
+            </div>
+            
+            <div class="copyright">
+                &copy; 2026 Mama Njeri Restaurant. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="config.js"></script>
+
+    <!-- ⚠️ IMPORTANT FIX -->
+    <!-- JSON should NOT be loaded as a script -->
+    <!-- Remove this if you're fetching it via JS -->
+    <!-- <script src="products.json"></script> -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>

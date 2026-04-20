@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Chapati",
+      "price": 30,
+      "image": "chapati.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Beef Stew with Chapati",
+      "price": 180,
+      "image": "beef-stew.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Fried Chicken",
+      "price": 220,
+      "image": "fried-chicken.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Pilau Rice",
+      "price": 150,
+      "image": "pilau.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Matoke with Beef",
+      "price": 160,
+      "image": "matoke.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Githeri Special",
+      "price": 120,
+      "image": "githeri.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Ugali with Sukuma Wiki",
+      "price": 100,
+      "image": "ugali-sukuma.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Ugali with Fish",
+      "price": 250,
+      "image": "ugali-fish.jpg"
+    },
+    {
+      "id": 9,
+      "name": "French Fries (Chips)",
+      "price": 100,
+      "image": "chips.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Chips with Chicken",
+      "price": 280,
+      "image": "chips-chicken.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Tea (Chai)",
+      "price": 40,
+      "image": "tea.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Mango Juice",
+      "price": 80,
+      "image": "mango-juice.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Fried Eggs (2 pcs)",
+      "price": 60,
+      "image": "fried-eggs.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Beans with Chapati",
+      "price": 120,
+      "image": "beans-chapati.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Grilled Tilapia",
+      "price": 300,
+      "image": "tilapia.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Samosa (3 pcs)",
+      "price": 100,
+      "image": "samosa.jpg"
+    }
+  ]
+}
